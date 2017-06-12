@@ -31,21 +31,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/degisn/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1497271829831" expanded="true" signature="113:1494" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="120:229" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="236:1494" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="261:1146" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="319:1135" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="332:1124" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="682:1110" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="725:1092" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="878:1065" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="1155:1494" ph="..." />
+                <marker date="1497271829831" expanded="true" signature="1161:1262" ph="/*...*/" />
+                <marker date="1497271829831" expanded="true" signature="1289:1368" ph="{...}" />
+                <marker date="1497271829831" expanded="true" signature="1462:1494" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/degisn/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/degisn/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+            <state relative-caret-position="257">
+              <caret line="172" column="19" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -60,6 +84,8 @@
         <option value="$PROJECT_DIR$/design/css/style.css" />
         <option value="$PROJECT_DIR$/degisn/index.php" />
         <option value="$PROJECT_DIR$/degisn/css/style.css" />
+        <option value="$PROJECT_DIR$/degisn/register.php" />
+        <option value="$PROJECT_DIR$/degisn/login.php" />
       </list>
     </option>
   </component>
@@ -195,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497268823994</updated>
-      <workItem from="1497268825382" duration="973000" />
+      <workItem from="1497268825382" duration="2552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="973000" />
+    <option name="totallyTimeSpent" value="2552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -265,14 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/degisn/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/degisn/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
@@ -283,9 +301,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/degisn/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+        <state relative-caret-position="257">
+          <caret line="172" column="19" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/degisn/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/degisn/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1497271829831" expanded="true" signature="113:1494" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="120:229" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="236:1494" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="261:1146" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="319:1135" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="332:1124" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="682:1110" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="725:1092" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="878:1065" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="1155:1494" ph="..." />
+            <marker date="1497271829831" expanded="true" signature="1161:1262" ph="/*...*/" />
+            <marker date="1497271829831" expanded="true" signature="1289:1368" ph="{...}" />
+            <marker date="1497271829831" expanded="true" signature="1462:1494" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

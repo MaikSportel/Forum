@@ -160,17 +160,17 @@ li a {
 }
 .email {
     position: absolute;
-    width: 20%;
+    width: 30%;
     font-size: 1.5rem;
-    margin-left: 37.5%;
+    margin-left: 33%;
     margin-top: 15%;
 }
 .wachtwoord {
     position: absolute;
-    width: 20%;
+    width: 30%;
     font-size: 1.5rem;
     margin-top: 20%;
-    margin-left: 37.5%;
+    margin-left: 33%;
 }
 .loginknop {
     font-size: 1.5rem;

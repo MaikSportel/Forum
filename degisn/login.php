@@ -1,3 +1,12 @@
+<?php
+if(!empty($_POST['email']) && !empty($_POST['wachtwoord']));
+
+
+endif;
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,9 +56,9 @@
     }
 </script>
 <section class="bloklogin">
-    <form>
+    <form action="login.php" method="post">
         <input required type="text" class="email" name="email" placeholder="E-Mail">
-        <input required type="password" class="wachtwoord" name="password">
+        <input required type="password" class="wachtwoord" name="wachtwoord">
         <input type="hidden" name="submit" value="true">
         <input type="submit" class="loginknop" id="submit" value="Login">
         <li href="registreren.html"> <input type="button" class="registerknop" value="Registreren"></li>
