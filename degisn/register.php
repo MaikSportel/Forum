@@ -15,13 +15,13 @@ include ('menubalk.html');
 <body>
 
 <section class="bloklogin">
-<form action="register.php" method="post">
-        <input class="regemail" type="text" placeholder="E-mail" name="email" >
-        <input class="regww" type="password" placeholder="Wachtwoord" name="wachtwoord">
-        <input class="reghhww" type="password" placeholder="Herhaal wachtwoord" name="herhaalwachtwoord">
-        <input type="button" class="registreren" value="Registreren">
-        <a href="login.php"><input type="button" class="inloggen" value="Login"></a>
-</form>
+    <form action="register.php" method="post">
+        <input required type="text" class="email" name="email" placeholder="E-Mail">
+        <input required type="password" class="wachtwoord" name="wachtwoord">
+        <input type="hidden" name="submit" value="true">
+        <input type="submit" class="loginknop" id="submit" value="Login">
+        <a href="login.php"> <input type="button" class="reglogin" value="Login"></a>
+    </form>
 
 
 

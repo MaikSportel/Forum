@@ -197,13 +197,15 @@ li a {
 
 
 /*---------------------------------Registreren--------------------------*/
-
-.regemail {
-    position: absolute;
-    width: 30%;
+.reglogin {
     font-size: 1.5rem;
-    margin-left: 33%;
-    margin-top: 15%;
+    color: #bdae75 ;
+    background-color: black;
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 25%;
 }
 
 
