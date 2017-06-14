@@ -198,6 +198,12 @@ li a {
 
 /*---------------------------------Registreren--------------------------*/
 
-
+.regemail {
+    position: absolute;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-left: 33%;
+    margin-top: 15%;
+}
 
 

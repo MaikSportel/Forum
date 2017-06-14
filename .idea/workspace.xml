@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="006d317a-4e92-4e97-abcf-e0a53e811c10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/degisn/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/degisn/menubalk.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/degisn/form.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/cast.php" afterPath="$PROJECT_DIR$/degisn/cast.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/comics.php" afterPath="$PROJECT_DIR$/degisn/comics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/contact.php" afterPath="$PROJECT_DIR$/degisn/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/games.php" afterPath="$PROJECT_DIR$/degisn/games.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/index.php" afterPath="$PROJECT_DIR$/degisn/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/login.php" afterPath="$PROJECT_DIR$/degisn/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/css/style.css" afterPath="$PROJECT_DIR$/degisn/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/register.php" afterPath="$PROJECT_DIR$/degisn/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/degisn/serie.php" afterPath="$PROJECT_DIR$/degisn/serie.php" />
     </list>
     <ignored path="1forumphp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,21 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/degisn/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/degisn/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="193" column="1" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
+            <state relative-caret-position="801">
+              <caret line="205" column="20" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -151,7 +141,6 @@
       <list>
         <option value="$PROJECT_DIR$/design/comics.php" />
         <option value="$PROJECT_DIR$/design/css/style.css" />
-        <option value="$PROJECT_DIR$/degisn/css/style.css" />
         <option value="$PROJECT_DIR$/degisn/menubalk.php" />
         <option value="$PROJECT_DIR$/degisn/index.php" />
         <option value="$PROJECT_DIR$/degisn/cast.php" />
@@ -160,8 +149,9 @@
         <option value="$PROJECT_DIR$/degisn/games.php" />
         <option value="$PROJECT_DIR$/degisn/serie.php" />
         <option value="$PROJECT_DIR$/degisn/menubalk.html" />
-        <option value="$PROJECT_DIR$/degisn/register.php" />
         <option value="$PROJECT_DIR$/degisn/login.php" />
+        <option value="$PROJECT_DIR$/degisn/register.php" />
+        <option value="$PROJECT_DIR$/degisn/css/style.css" />
       </list>
     </option>
   </component>
@@ -320,12 +310,12 @@
       <updated>1497268823994</updated>
       <workItem from="1497268825382" duration="3047000" />
       <workItem from="1497276540025" duration="772000" />
-      <workItem from="1497448094729" duration="3513000" />
+      <workItem from="1497448094729" duration="3839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7332000" />
+    <option name="totallyTimeSpent" value="7658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -513,14 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/degisn/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="193" column="1" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/degisn/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -531,8 +513,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/degisn/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/degisn/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="205" column="20" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="20" />
           <folding />
         </state>
       </provider>
