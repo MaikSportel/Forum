@@ -1,6 +1,6 @@
 <?php
 include ('menubalk.html');
-
+include ('footer.html');
 
 ?>
 
@@ -28,11 +28,6 @@ include ('menubalk.html');
 
 </section>
 
-<footer>
-    <section class="footer">
-        Copyright by Maik ©
-    </section>
-</footer>
 
 </body>
 </html>

@@ -197,6 +197,15 @@ li a {
 
 
 /*---------------------------------Registreren--------------------------*/
+.regemail {
+    position: absolute;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+
 .reglogin {
     font-size: 1.5rem;
     color: #bdae75 ;
@@ -204,8 +213,35 @@ li a {
     width: 20%;
     height: 10%;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 35%;
     margin-left: 25%;
 }
+.regregisterknop {
+    font-size: 1.5rem;
+    color: #bdae75 ;
+    background-color: black;
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 50%;
+}
+.hhwachtwoord {
+    position: absolute;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-top: 25%;
+    margin-left: 33%;
+}
+.gebruikersnaam {
+    position: absolute;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-left: 33%;
+    margin-top: 15%;
+
+}
+
+
 
 
