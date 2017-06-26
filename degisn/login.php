@@ -2,35 +2,38 @@
 include ('menubalk.html');
 include ('footer.html');
 
-if (!empty($_POST['email']) && !empty($_POST['wachtwoord'])):
+session_start();
+if(isset($_SESSION['username'])) {
+    header('Location: index.php');
+    exit(0);
+}
 
-endif;
-
+include ('achtergrond_code/login_handler.php');
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
 
-<section class="bloklogin">
-    <form action="login.php" method="post">
-        <input required type="text" class="email" name="email" placeholder="E-Mail">
-        <input required type="password" class="wachtwoord" name="wachtwoord" placeholder="Wachtwoord">
-        <input type="hidden" name="submit" value="true">
-        <input type="submit" class="loginknop" id="submit" value="Login">
-        <a href="register.php"> <input type="button" class="registerknop" value="Registreren"></a>
-    </form>
-
-
-
-</section>
+    <section class="bloklogin">
+        <form method="POST">
+            <input required type="text" class="email" name="email_gb" placeholder="Vul je email of wachtwoord in.">
+            <input required type="password" class="wachtwoord" name="wachtwoord" placeholder="Wachtwoord">
+            <section>
+                <?= $login_error ?>
+                <input type="submit" class="loginknop" name="login" value="Login">
+                <a href="register.php"> <input type="button" class="registerknop" value="Registreren"></a>
+        </form>
+    </section>
 
 
+    </section>
 
-</body>
-</html>
+
+    </body>
+    </html>

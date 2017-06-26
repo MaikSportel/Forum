@@ -1,33 +1,37 @@
 <?php
-include ('menubalk.html');
-include ('footer.html');
-
 session_start();
-if(isset($_SESSION['username'])) {
-    header('Location: profiel.php');
+include ('achtergrond_code/database.php');
+if(!isset($_SESSION['username'])) {
+    header('Location: index.php');
     exit(0);
 }
+include ("menubalk.html");
+include ("footer.html");
+include ("achtergrond_code/profiel_handler.php");
 
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Forum TWD</title>
+    <title><?= $_SESSION['username']; ?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <section class="blok">
-    <section>
-        <img class="serieafb" src="css/img/Serie.png">
-        <img class="castafb" src="css/img/cast.png">
-        <img class="comicsafb" src="css/img/comics.png">
-        <img class="gamesafb" src="css/img/game.png">
-    </section>
+    <form method="POST">
+        <section>
+            <input required type="text" class="gebruikersnaam" name="gb" placeholder="Gebruikersnaam">
+            <?= $username_used ?>
+        </section>
 
+        <input type="hidden" name="submit" value="true">
+        <input name="verander_gb" type="submit" class="verandergb" id="submit" value="Verander gebruikersnaam">
+        <?= $verander_gb_message ?>
+        </form>
+
+    <a href="achtergrond_code/logout.php">Logout</a>
 </section>
 <section class="lastpost">
     <i>Hier komen de laatste posts</i>
@@ -37,9 +41,6 @@ if(isset($_SESSION['username'])) {
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </section>
-
-
-
 
 </body>
 </html>
