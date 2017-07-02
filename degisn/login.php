@@ -4,11 +4,11 @@ include ('footer.html');
 
 session_start();
 if(isset($_SESSION['username'])) {
-    header('Location: index.php');
+    header('Location: profiel.php');
     exit(0);
 }
 
-include ('achtergrond_code/login_handler.php');
+include('../src/login_handler.php');
 
 ?>
     <!DOCTYPE html>
@@ -22,7 +22,7 @@ include ('achtergrond_code/login_handler.php');
 
     <section class="bloklogin">
         <form method="POST">
-            <input required type="text" class="email" name="email_gb" placeholder="Vul je email of wachtwoord in.">
+            <input required type="text" class="email" name="email_gb" placeholder="Vul je email of gebruikersnaam in.">
             <input required type="password" class="wachtwoord" name="wachtwoord" placeholder="Wachtwoord">
             <section>
                 <?= $login_error ?>

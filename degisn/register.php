@@ -7,7 +7,7 @@ if(isset($_SESSION['username'])) {
 include ('menubalk.html');
 include ('footer.html');
 // Register handler
-include('achtergrond_code/registreren_handler.php');
+include('../src/registreren_handler.php');
 
 
     ?>

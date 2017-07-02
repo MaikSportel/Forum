@@ -1,6 +1,10 @@
 <?php
 include ('menubalk.html');
 include ('footer.html');
+session_start();
+if(isset($_SESSION['username'])) {
+
+}
 
 
 ?>
@@ -11,12 +15,13 @@ include ('footer.html');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Contact </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <section class="blok">
+    <img src="css/img/contacttitel.png" style="width: 20%; height: 10%" >
 
 
 

@@ -1,7 +1,10 @@
 <?php
 include ('menubalk.html');
 include ('footer.html');
+session_start();
+if(isset($_SESSION['username'])) {
 
+}
 
 ?>
 
@@ -9,12 +12,22 @@ include ('footer.html');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Games</title>
+    <title>Games </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <section class="blok">
+    <img class="gamestitel" src="css/img/gamestitel.png">
+    <section class="createtopicbutton">
+        <?php
+        if(empty($_SESSION['username']))
+        {
+        }else{
+            echo '<a href="create_games_topic.php"><input class="topicbutton" type="button" value="Maak een topic aan"></a>';
+        }
+        ?>
+    </section>
 
 
 

@@ -1,7 +1,10 @@
 <?php
 include ('menubalk.html');
 include ('footer.html');
+session_start();
+if(isset($_SESSION['username'])) {
 
+}
 ?>
 
 
@@ -15,7 +18,16 @@ include ('footer.html');
 <body>
 
 <section class="blok">
-    <br><br>Hier komen subcategorieën en topics te staan
+    <img class="comicstitel" src="css/img/comicstitel.png">
+    <section class="createtopicbutton">
+        <?php
+        if(empty($_SESSION['username']))
+        {
+        }else{
+            echo '<a href="create_comics_topic.php"><input class="topicbutton" type="button" value="Maak een topic aan"></a>';
+        }
+        ?>
+    </section>
 
 
 

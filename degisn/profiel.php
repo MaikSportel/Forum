@@ -1,13 +1,13 @@
 <?php
 session_start();
-include ('achtergrond_code/database.php');
+include('../src/database.php');
 if(!isset($_SESSION['username'])) {
-    header('Location: index.php');
+    header('Location: login.php');
     exit(0);
 }
 include ("menubalk.html");
 include ("footer.html");
-include ("achtergrond_code/profiel_handler.php");
+include("../src//profiel_handler.php");
 
 
 ?>
@@ -22,7 +22,8 @@ include ("achtergrond_code/profiel_handler.php");
 <section class="blok">
     <form method="POST">
         <section>
-            <input required type="text" class="gebruikersnaam" name="gb" placeholder="Gebruikersnaam">
+            <p class="p1">Verander je gebruikersnaam:</p>
+            <input required type="text" class="gebruikersnaam_wijzigen" name="gb" placeholder="Gebruikersnaam">
             <?= $username_used ?>
         </section>
 
@@ -31,7 +32,22 @@ include ("achtergrond_code/profiel_handler.php");
         <?= $verander_gb_message ?>
         </form>
 
-    <a href="achtergrond_code/logout.php">Logout</a>
+    <!--Voornaam toevoegen formulier-->
+    <form method="POST">
+        <section>
+            <p class="p2">Vul je voornaam in:</p>
+            <input required type="text" class="voornnaam" name="voornaan_add" placeholder="Voornaam">
+        </section>
+        <input type="hidden" name="submit" value="true">
+        <input name="voornaam" type="submit" class="voornaamknop" id="submit" value="Voeg je voornaam toe.">
+        <?= $verander_gb_message ?>
+    </form>
+
+
+    <section class="uitloggen">
+        Wil je uitloggen?
+    <a class="logout" href="../src/logout.php"><b>Logout</b></a>
+    </section>
 </section>
 <section class="lastpost">
     <i>Hier komen de laatste posts</i>

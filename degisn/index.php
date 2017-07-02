@@ -4,8 +4,7 @@ include ('footer.html');
 
 session_start();
 if(isset($_SESSION['username'])) {
-    header('Location: profiel.php');
-    exit(0);
+
 }
 
 
@@ -21,12 +20,16 @@ if(isset($_SESSION['username'])) {
 </head>
 <body>
 <section class="blok">
-    <section>
-        <img class="serieafb" src="css/img/Serie.png">
-        <img class="castafb" src="css/img/cast.png">
-        <img class="comicsafb" src="css/img/comics.png">
-        <img class="gamesafb" src="css/img/game.png">
-    </section>
+    <a>
+        <a href="serie.php"><img class="indexserietitel" src="css/img/serietitel.png" ></a>
+        <a href="serie.php"> <img class="serieafb" src="css/img/Serie.png"></a>
+        <a href="cast.php"><img class="inxedcasttitel" src="css/img/casttitel.png"></a>
+        <a href="cast.php"> <img class="castafb" src="css/img/cast.png"></a>
+        <a href="comics.php"><img class="indexcomictitel" src="css/img/comicstitel.png"></a>
+        <a href="comics.php"> <img class="comicsafb" src="css/img/comics.png"></a>
+        <a href="games.php"><img class="indexgamestitel" src="css/img/gamestitel.png"></a>
+       <a href="games.php"> <img class="gamesafb" src="css/img/game.png"></a>
+    </a>
 
 </section>
 <section class="lastpost">
